@@ -69,30 +69,16 @@ sudo apt-get install postgresql
 - 修改 explorerconfig.json 以更新 postgresql 属性
 
   - postgreSQL host, port, database, username, password details.
+```
+"postgreSQL": {
 
-- "postgreSQL": {
-
-- ```
     "host": "127.0.0.1",
-  ```
-
-- ```
     "port": "5432",
-  ```
-
-- ```
     "database": "fabricexplorer",
-  ```
-
-- ```
     "username": "hppoc",
-  ```
-
-- ```
     "passwd": "password"
-  ```
-
-- }
+}
+```
 
   配置数据库属性的另一种替代方法是使用环境变量，设置示例:
 
